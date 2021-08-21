@@ -9,7 +9,7 @@ Numpy
 
 Matplotlib
 
-pickle
+Pickle
 
 
 ### Introduction
