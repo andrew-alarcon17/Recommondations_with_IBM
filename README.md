@@ -13,7 +13,7 @@ Pickle
 
 
 ### Introduction
-The purpose of this project was to create a recommendation engine for user regarding the articles that they each interact with. This recommendation engine implements FunkSVD and recommends articles for users.
+The purpose of this project was to create a recommendation engine for user regarding the articles that they each interact with. This recommendation engine implements SVD and recommends articles for users.
 
 #### I Exploratory Data Analysis
 Explored the data given. Discovered information such like the number of unique articles that have an interaction with a user, and the number of unique articles in the dataset (whether they have any interactions or not), etc.
