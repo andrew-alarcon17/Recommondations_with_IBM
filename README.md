@@ -25,14 +25,16 @@ Here, matrix factorization was used in order to make article recommendations to 
 
 ### Findings
 
+Note that the user_item_matrix contains user ids as rows and article ids on the columns with 1 values where a user interacted with 
+an article and a 0 otherwise.
 
-### Acknowledgements
+When we run the model on the user_item_matrix, we get the following chart:
 
-
-
-
-
-
+<img src="https://github.com/andrew-alarcon17/Recommondations_with_IBM/blob/main/Images/Training.png" width="500">
 
 
+However, when we split the user_item_matrix into training and testing sets, we get this as a chart for the testing set:
 
+<img src="https://github.com/andrew-alarcon17/Recommondations_with_IBM/blob/main/Images/Testing.png" width="500">
+
+It is important to note that as we have more latent features, the lower our accuracy becomes. As more features are added, then the more our model becomes overfitted.
