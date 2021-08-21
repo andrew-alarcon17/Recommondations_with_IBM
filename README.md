@@ -2,11 +2,15 @@
 
 ### Libraries Used
 Pythin 3.6
+
 Pandas
+
 Numpy
+
 Matplotlib
+
 pickle
-RE
+
 
 ### Introduction
 The purpose of this project was to create a recommendation engine for user regarding the articles that they each interact with. This recommendation engine implements FunkSVD and recommends articles for users.
